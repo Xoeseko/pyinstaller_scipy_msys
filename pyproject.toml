@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "scipy-pyinstaller-bug-reproduction"
+version = "0.1.0"
+description = "Reproducing a bug that doesn't seem to be caught by https://github.com/natcap/invest/issues/1596"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.14"
+scipy = "^1.14.0"
+pyinstaller = "^6.10.0"
+pytest = "^8.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
